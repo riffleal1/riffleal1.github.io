@@ -1,0 +1,68 @@
+body{
+    background-color: #E6FEF9;
+    color: #88AB91;
+}
+.bg{
+    height: 50px;
+    background-image: url(Images/BG.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+    color: #696969;
+}
+
+.Pic {
+    background-image: url("Images/diagram.png");
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+    transition: height 2s;
+    padding: 15px;
+    }
+
+.Pic:hover {
+    background-image: url("Images/PSDiagram.jpg");
+    height: 400px;
+    width: 800px;
+    padding: 15px;
+}
+
+@media all and (max-width:641px){
+
+.bg{
+    display: none;
+}
+    
+img {
+    padding: none;
+}
+
+.Pic {
+    background-image: url("Images/diagram.png");
+    margin-left: auto;
+    margin-right: auto;
+    height: 304px;
+    width: 304px;
+    
+    }
+.Pic:hover {
+    background-image: url("Images/PSDiagram.jpg");
+    height: 304px;
+    width: 304px;
+}
+    
+}
