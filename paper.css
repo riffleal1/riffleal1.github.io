@@ -1,0 +1,49 @@
+body{
+    background-color: #E6FEF9;
+    color: #88AB91;
+}
+.bg{
+    height: 50px;
+    background-image: url("Images/BG2.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+
+
+h1 {
+    font-size: 36pt;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    font-style: bold;
+    font-size: 18pt;
+}
+
+p {
+    color: 	#696969;
+    line-height: 2;
+}
+
+@media all and (max-width:641px){
+
+.bg{
+    display: none;
+}
+
+.row a {
+    color: #e6ffff;
+    background-color: #006666;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+}
